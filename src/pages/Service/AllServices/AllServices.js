@@ -16,7 +16,7 @@ const AllServices = () => {
                 
             <div className="d-flex justify-content-between align-items-center custom-bg text-white px-3">
                 <h2>Our Services</h2>
-                <p><NavLink to="/home " >Home / </NavLink>Our Services</p>
+                <p><NavLink to="/home" >Home / </NavLink>Our Services</p>
             </div>
             <h2 className="my-5">Medical Services</h2>
             <Row className="g-3">

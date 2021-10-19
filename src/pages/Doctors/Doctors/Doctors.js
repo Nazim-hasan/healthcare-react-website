@@ -16,7 +16,7 @@ const Doctors = () => {
         <Container>
             <div className="d-flex justify-content-between align-items-center custom-bg text-white px-3">
                 <h2>Our Doctors</h2>
-                <p><NavLink to="/home " >Home / </NavLink>Our Doctors</p>
+                <p><NavLink to="/home" >Home / </NavLink>Our Doctors</p>
             </div>
             <h2 className="my-5">Head of Departments</h2>
             <Row>

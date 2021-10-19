@@ -1,0 +1,12 @@
+.custom-bg {
+  background-image: url("https://victorthemes.com/themes/cosgrove/wp-content/uploads/2018/01/title-bg.jpg");
+  background-color: #6570d8e3;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p > a {
+  color: white;
+  text-decoration: none;
+}

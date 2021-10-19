@@ -68,7 +68,7 @@ const Login = () => {
                             <button className="w-100 btn btn-primary py-2 my-4">{isLogin? 'Login' : 'Register'}</button>
                         </Form>
                         <p className="text-center"><small className="text-muted ">----or----</small></p>
-                        <button className="btn btn-danger w-100 my-4" onClick={handleGoogleSignIn}>{isLogin? 'Login' : 'Register'} with Google</button>
+                        <button className="btn btn-danger w-100 my-4" onClick={handleGoogleSignIn}>Login with Google</button>
                         <Form.Group as={Row} className="mb-3" controlId="formHorizontalCheck">
                             <Col sm={{ span: 10, offset: 2 }}>
                             <Form.Check onChange={toggleLogin} label="Already have an account? " />

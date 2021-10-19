@@ -1,0 +1,9 @@
+.custom-text-position {
+  position: absolute;
+  top: 25%;
+}
+@media only screen and (max-width: 688px) {
+  .custom-text-position {
+    position: static;
+  }
+}

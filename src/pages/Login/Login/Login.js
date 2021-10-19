@@ -3,7 +3,7 @@ import { Col, Container, Form, Row } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
 const Login = () => {
-    const {signInUsingGoogle,RegisterUsingPassword,processLogin,user}=useAuth();
+    const {signInUsingGoogle,RegisterUsingPassword,processLogin,user,isLoading}=useAuth();
     // const {signInUsingGoogle,RegisterUsingPassword,processLogin}=useFirebase();
     const [name,setName]=useState('');  
     const [email,setEmail]=useState('');

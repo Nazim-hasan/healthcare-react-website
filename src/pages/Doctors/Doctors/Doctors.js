@@ -19,7 +19,7 @@ const Doctors = () => {
                 <p><NavLink to="/home" >Home / </NavLink>Our Doctors</p>
             </div>
             <h2 className="my-5">Head of Departments</h2>
-            <Row>
+            <Row className="gy-3">
                 {
                     doctors.map(doc=> <Doctor key={doc.id} doctor={doc}/>)
                 }
